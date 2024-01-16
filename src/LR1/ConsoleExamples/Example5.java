@@ -1,17 +1,17 @@
-package LR1;
+package LR1.ConsoleExamples;
 
 import java.util.Scanner;
-public class Example1 {
+public class Example5 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Введите ваше имя: ");
+        System.out.println("Input name: ");
         String name = in.nextLine();
 
-        System.out.println("Введите ваш возраст: ");
+        System.out.println("Input age: ");
         int age = in.nextInt();
 
-        System.out.println("Введите ваш рост: ");
+        System.out.println("Input height: ");
         float height = in.nextFloat();
 
         System.out.printf("Name: %s Age: %d Height: %.2f \n", name, age, height);
